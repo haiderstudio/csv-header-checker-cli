@@ -1,0 +1,10 @@
+OK — 1 file(s) checked, headers are clean.
+FAIL examples/bad-headers.csv:1: column 2 ' name ' has leading or trailing spaces
+FAIL examples/bad-headers.csv:1: column 4 has an empty name
+FAIL examples/bad-headers.csv:1: duplicate column name 'id'
+Checked 1 file(s), 3 problem(s) in 1 file(s).
+FAIL examples/wrong-width.csv:2: row has 2 field(s), header has 3
+FAIL examples/wrong-width.csv:3: row has 4 field(s), header has 3
+Checked 1 file(s), 2 problem(s) in 1 file(s).
+FAIL examples/missing-required.csv:1: required column 'price' is missing
+Checked 1 file(s), 1 problem(s) in 1 file(s).
